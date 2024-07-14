@@ -3,13 +3,7 @@ use axum::Router;
 use http::{Method, Request, Uri};
 use hyper::Body;
 use rewrk_core::{
-    Batch,
-    HttpProtocol,
-    Producer,
-    ReWrkBenchmark,
-    RequestBatch,
-    Sample,
-    SampleCollector,
+    Batch, HttpProtocol, Producer, ReWrkBenchmark, RequestBatch, Sample, SampleCollector,
 };
 
 static ADDR: &str = "127.0.0.1:19999";

@@ -15,11 +15,7 @@ use crate::connection::ReWrkConnector;
 use crate::producer::Producer;
 use crate::recording::CollectorActor;
 use crate::{
-    DefaultValidator,
-    HttpProtocol,
-    ResponseValidator,
-    SampleCollector,
-    Scheme,
+    DefaultValidator, HttpProtocol, ResponseValidator, SampleCollector, Scheme,
 };
 
 /// The default percentage workers must be waiting on
